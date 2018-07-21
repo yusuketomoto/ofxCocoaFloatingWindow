@@ -6,6 +6,8 @@
 //
 
 #include "ofxCocoaFloatingWindow.h"
+#include <AppKit/NSOpenGL.h>
+#include <AppKit/NSWindow.h>
 
 void ofxCocoaFloatingWindow::setupWithIgnoringMouseEvents(bool bIgnoreMouseEvents) {
 	NSOpenGLContext *context = [NSOpenGLContext currentContext];
